@@ -1,0 +1,4 @@
+[13:40:58:044] [WARN] - [main] - com.example.nla.NlaApplicationTests.RPTest(NlaApplicationTests.java:136) - SF是主流的Java应用程序开发框架。
+[13:42:12:014] [WARN] - [main] - com.example.nla.NlaApplicationTests.RPTest(NlaApplicationTests.java:137) - SF是主流的Java应用程序开发框架。
+[16:55:03:479] [WARN] - [HikariPool-1 housekeeper] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:788) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s535ms725µs500ns).
+[22:21:49:957] [WARN] - [HikariPool-1 housekeeper] - com.zaxxer.hikari.pool.HikariPool$HouseKeeper.run(HikariPool.java:788) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m36s750ms677µs800ns).

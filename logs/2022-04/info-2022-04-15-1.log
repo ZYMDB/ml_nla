@@ -1,0 +1,55 @@
+[17:01:55:174] [INFO] - [main] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting NlaApplicationTests using Java 1.8.0_291 on Dream with PID 1860 (started by Michael in E:\Develop\WorkSpace\nla)
+[17:01:55:194] [INFO] - [main] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:640) - No active profile set, falling back to 1 default profile: "default"
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\ActionMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\ConMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\DeconGroupMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\EnvMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\GiverMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\RecMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\ResMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\RpMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\TempMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:435) - Identified candidate component class: file [E:\Develop\WorkSpace\nla\target\classes\com\example\nla\mapper\ToolMapper.class]
+[17:01:56:097] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'actionMapper' and 'com.example.nla.mapper.ActionMapper' mapperInterface
+[17:01:56:097] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'actionMapper'.
+[17:01:56:097] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'conMapper' and 'com.example.nla.mapper.ConMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'conMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'deconGroupMapper' and 'com.example.nla.mapper.DeconGroupMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'deconGroupMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'envMapper' and 'com.example.nla.mapper.EnvMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'envMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'giverMapper' and 'com.example.nla.mapper.GiverMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'giverMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'recMapper' and 'com.example.nla.mapper.RecMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'recMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'resMapper' and 'com.example.nla.mapper.ResMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'resMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'rpMapper' and 'com.example.nla.mapper.RpMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'rpMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'tempMapper' and 'com.example.nla.mapper.TempMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'tempMapper'.
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating MapperFactoryBean with name 'toolMapper' and 'com.example.nla.mapper.ToolMapper' mapperInterface
+[17:01:56:107] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Enabling autowire by type for MapperFactoryBean with name 'toolMapper'.
+[17:01:56:857] [INFO] - [main] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:01:58:007] [INFO] - [main] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:01:59:467] [INFO] - [main] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started NlaApplicationTests in 4.685 seconds (JVM running for 6.93)
+[17:01:59:857] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Creating a new SqlSession
+[17:01:59:857] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77b3752b] was not registered for synchronization because synchronization is not active
+[17:01:59:877] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - JDBC Connection [HikariProxyConnection@1716421772 wrapping com.mysql.cj.jdbc.ConnectionImpl@4d93f75b] will not be managed by Spring
+[17:01:59:917] [DEBUG] - [main] - org.mybatis.logging.Logger.debug(Logger.java:49) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77b3752b]
+[17:01:59:947] [INFO] - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:01:59:977] [INFO] - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:03:49:759] [INFO] - [main] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting NlaApplicationTests using Java 1.8.0_291 on Dream with PID 13048 (started by Michael in E:\Develop\WorkSpace\nla)
+[17:03:49:780] [INFO] - [main] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:640) - No active profile set, falling back to 1 default profile: "default"
+[17:03:51:239] [INFO] - [main] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - HikariPool-1 - Starting...
+[17:03:52:379] [INFO] - [main] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - HikariPool-1 - Start completed.
+[17:03:53:799] [INFO] - [main] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started NlaApplicationTests in 4.376 seconds (JVM running for 6.678)
+[17:03:54:229] [INFO] - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - HikariPool-1 - Shutdown initiated...
+[17:03:54:239] [INFO] - [SpringApplicationShutdownHook] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - HikariPool-1 - Shutdown completed.
+[17:15:52:115] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - $SF是主流的Java应用程序开发框架。
+[17:16:15:196] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - SF是主流的Java应用程序开发框架。
+[17:16:53:399] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - SF是主流的Java应用程序开发框架。
+[17:18:44:021] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - SF是主流的Java应用程序开发框架。
+[17:19:12:696] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - SF是主流的Java应用程序开发框架。
+[17:19:32:280] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:128) - SF是主流的Java应用程序开发框架。
+[18:27:06:994] [WARN] - [main] - com.example.nla.NlaApplicationTests.test(NlaApplicationTests.java:129) - SF是主流的Java应用程序开发框架。

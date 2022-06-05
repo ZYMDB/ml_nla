@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.nla.mapper.RecMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.nla.entity.Rec">
+        <!--@Table rec-->
+        <result property="recId" column="rec_id" jdbcType="INTEGER"/>
+        <result property="recName" column="rec_name" jdbcType="VARCHAR"/>
+        <result property="recDes" column="rec_des" jdbcType="VARCHAR"/>
+        <result property="recRelationObjs" column="rec_relation_objs" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="modifyTime" column="modify_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="BaseResultMap">
+        select
+          rec_id, rec_name, rec_des, rec_relation_objs, create_time, modify_time
+        from ml_nla.rec
+        where rec_id = #{recId}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="BaseResultMap">
+        select
+          rec_id, rec_name, rec_des, rec_relation_objs, create_time, modify_time        from ml_nla.rec
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="BaseResultMap">
+        select
+          rec_id, rec_name, rec_des, rec_relation_objs, create_time, modify_time        from ml_nla.rec
+        <where>
+            <if test="recId != null">
+                and rec_id = #{recId}
+            </if>
+            <if test="recName != null and recName != ''">
+                and rec_name = #{recName}
+            </if>
+            <if test="recDes != null and recDes != ''">
+                and rec_des = #{recDes}
+            </if>
+            <if test="recRelationObjs != null and recRelationObjs != ''">
+                and rec_relation_objs = #{recRelationObjs}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+            <if test="modifyTime != null">
+                and modify_time = #{modifyTime}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="recId" useGeneratedKeys="true">
+        insert into ml_nla.rec(rec_name, rec_des, rec_relation_objs, create_time, modify_time)
+        values (#{recName}, #{recDes}, #{recRelationObjs}, #{createTime}, #{modifyTime})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update ml_nla.rec
+        <set>
+            <if test="recName != null and recName != ''">
+                rec_name = #{recName},
+            </if>
+            <if test="recDes != null and recDes != ''">
+                rec_des = #{recDes},
+            </if>
+            <if test="recRelationObjs != null and recRelationObjs != ''">
+                rec_relation_objs = #{recRelationObjs},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime},
+            </if>
+            <if test="modifyTime != null">
+                modify_time = #{modifyTime},
+            </if>
+        </set>
+        where rec_id = #{recId}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from ml_nla.rec where rec_id = #{recId}
+    </delete>
+
+</mapper>
