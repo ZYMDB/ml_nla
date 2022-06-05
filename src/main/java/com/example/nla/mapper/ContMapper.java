@@ -1,24 +1,24 @@
 package com.example.nla.mapper;
 
-import com.example.nla.entity.Con;
+import com.example.nla.entity.Cont;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * (Con)表数据库访问层
+ * (Cont)表数据库访问层
  * @author makejava
  * @since 2022-04-05 21:21:24
  */
 @Mapper
-public interface ConMapper {
+public interface ContMapper {
 
     /**
      * 通过ID查询单条数据
      * @param conId 主键
      * @return 实例对象
      */
-    Con queryById(Integer conId);
+    Cont queryById(Integer conId);
 
     /**
      * 查询指定行数据
@@ -26,7 +26,7 @@ public interface ConMapper {
      * @param limit 查询条数
      * @return 对象列表
      */
-    List<Con> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
+    List<Cont> queryAllByLimit(@Param("offset") int offset, @Param("limit") int limit);
 
 
     /**
@@ -34,21 +34,21 @@ public interface ConMapper {
      * @param con 实例对象
      * @return 对象列表
      */
-    List<Con> queryAll(Con con);
+    List<Cont> queryAll(Cont con);
 
     /**
      * 新增数据
      * @param con 实例对象
      * @return 影响行数
      */
-    int insert(Con con);
+    int insert(Cont con);
 
     /**
      * 修改数据
      * @param con 实例对象
      * @return 影响行数
      */
-    int update(Con con);
+    int update(Cont con);
 
     /**
      * 通过主键删除数据
